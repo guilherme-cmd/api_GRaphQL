@@ -34,7 +34,6 @@ Retorna uma lista de todas as tarefas.
 
 #### Exemplo de consulta:
 
-```graphql
 query {
   tasks {
     id
@@ -42,6 +41,7 @@ query {
     completed
   }
 }
+
 ### `task`
 
 Retorna detalhes de uma tarefa específica com base em seu ID.
