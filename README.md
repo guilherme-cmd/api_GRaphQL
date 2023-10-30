@@ -47,7 +47,7 @@ Retorna detalhes de uma tarefa específica com base em seu ID.
 
 Exemplo de consulta:
 
-```graphql
+
 query {
   task(id: "1") {
     id
@@ -66,7 +66,7 @@ Retorna uma lista de tarefas concluídas.
 
 Exemplo de consulta:
 
-```graphql
+
 query {
   completedTasks {
     id
@@ -80,7 +80,7 @@ Retorna uma lista de tarefas pendentes.
 
 Exemplo de consulta:
 
-```graphql
+
 query {
   pendingTasks {
     id
@@ -92,7 +92,7 @@ query {
 
 Retorna uma lista de todos os usuários.
 
-```graphql
+
 query {
   users {
     id
@@ -110,7 +110,7 @@ Cria uma nova tarefa.
 
 Exemplo de mutação:
 
-```graphql
+
 mutation {
   createTask(title: "Nova Tarefa", description: "Descrição da nova tarefa", userId: "1") {
     id
@@ -125,7 +125,7 @@ Marca uma tarefa como concluída com base em seu ID.
 
 Exemplo de mutação:
 
-```graphql
+
 mutation {
   markTaskAsCompleted(id: "1") {
     id
@@ -140,7 +140,7 @@ Atualiza informações de uma tarefa existente.
 
 Exemplo de mutação:
 
-```graphql
+
 mutation {
   updateTask(id: "1", title: "Título Atualizado", completed: true) {
     id
