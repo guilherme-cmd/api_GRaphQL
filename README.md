@@ -7,6 +7,7 @@ Esta é uma API GraphQL que fornece acesso a dados de uma aplicação fictícia 
 - [Tipos de Dados](#tipos-de-dados)
 - [Consultas](#consultas)
 - [Mutações](#mutações)
+- [Como Executar o Código](#como-executar-o-código)
 
 ## Tipos de Dados
 
@@ -101,7 +102,7 @@ query {
 }
 
 
-### `MUTAÇÕES`
+## MUTAÇÕES
 
 
 ### `createTask`
@@ -162,7 +163,28 @@ mutation {
   }
 }
 
+## Como Executar o Código
 
+Para executar este projeto, siga as etapas abaixo:
+
+1 - Clone o Repositório
+
+2 - Instale as Dependências
+
+Navegue até o diretório do projeto e execute o seguinte comando para instalar as dependências:
+
+
+npm install
+
+
+3 - Execute o Servidor
+
+Execute o servidor GraphQL com o seguinte comando:
+
+
+npm start
+
+O servidor será iniciado e estará disponível em http://localhost:4000. Você pode usar um cliente GraphQL, como o Apollo Studio, para fazer consultas e mutações na API.
 
 
 
